@@ -77,5 +77,5 @@ if __name__ == "__main__":
 ![AI Summarizer](Normal_Interface.png)
 - **`Using Hatsune-Miku-Theme from gradio Library on Huggingface`**
 ![Miku-Theme](Hatsune_Miku_Light.png).
-- **`Comparisiom`**
+- **`Comparision`**
 ![Miku-Theme](Interface_comparision.png).  
