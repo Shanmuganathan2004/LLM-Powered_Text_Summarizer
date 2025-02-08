@@ -1,7 +1,6 @@
 # LLM-Powered_Text_Summarizer Using Deepseek-R1 Model
-An  Chatbot Powered by Deepseek-R1 distilled LLM which helps to "Abstarct Summarization" from the text.
-Here’s a properly formatted and well-indented breakdown of the code:
-
+An  LLM Powered by local model Deepseek-R1 distilled LLM using which helps to "Abstarct Summarization" from the text.
+You can Follow me on LinkedIn -->
 ### **1. Import Required Libraries**
 ```python
 import requests
@@ -23,8 +22,8 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 ### **3. Define the Summarization Function**
 ```python
 def summarize_text(text):
-     payload = {
-        "model": "deepseek-r1", #Here you can load whatever the model you have in your ollama(ex:deepseek-r1:1.5b,7b,8b,14b) I used 7b model here 
+    payload = {
+        "model": "deepseek-r1:7b", #Here you can load whatever the model you have in your ollama(ex:deepseek-r1:1.5b,7b,8b,14b) I used 7b model here 
         "prompt": f"Summarize the following text in **5 bullet points**:\n\n{text}", #The prompt is here for tell commands for the llm to act 
         "stream": False  # Ensures the response is returned as a whole, not streamed
     }
@@ -38,7 +37,7 @@ def summarize_text(text):
 
 ```
 - This function:
-  1. Creates a **prompt** instructing DeepSeek to summarize the text in **3 bullet points**.
+  1. Creates a **prompt** instructing DeepSeek to summarize the text in **5 bullet points**.
   2. Sends the request to `OLLAMA_URL`.
   3. If the response is successful (`200` status code), it returns the summary.
   4. Otherwise, it returns an error message.
@@ -74,4 +73,9 @@ if __name__ == "__main__":
 - **`interface.launch()`** starts the Gradio UI.
 
 ---
-
+### **6. Output**
+![AI Summarizer](Normal_Interface.png)
+- **`Using Hatsune-Miku-Theme from gradio Library on Huggingface`**
+![Miku-Theme](Hatsune_Miku_Light.png).
+- **`Comparisiom`**
+![Miku-Theme](Interface_comparision.png).  
