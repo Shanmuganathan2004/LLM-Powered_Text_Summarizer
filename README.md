@@ -1,6 +1,8 @@
 # LLM-Powered_Text_Summarizer Using Deepseek-R1 Model
 An  LLM Powered by local model Deepseek-R1 distilled LLM using which helps to "Abstarct Summarization" from the text.
-You can Follow me on LinkedIn -->
+
+You can Follow me on LinkedIn click here -->-->--->[<img src="Linkein-Image.png" alt="AI Summarizer" width="30" height="30">](https://www.linkedin.com/in/shanmuganathan120) 
+
 ### **1. Import Required Libraries**
 ```python
 import requests
