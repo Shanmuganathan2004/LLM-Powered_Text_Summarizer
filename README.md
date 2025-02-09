@@ -3,6 +3,10 @@ An  LLM Powered by local model Deepseek-R1 distilled LLM using which helps to "A
 
 You can Follow me on LinkedIn click here -->-->--->[<img src="Linkein-Image.png" alt="AI Summarizer" width="30" height="30">](https://www.linkedin.com/in/shanmuganathan120) 
 
+### **Updates**
+1.0.0 - 08.02.2025-Initialize the commanad
+1.0.1 - Fix some bugs and deploy it with the fastapi and test using POSTMAN api
+
 ### **1. Import Required Libraries**
 ```python
 import requests
@@ -86,5 +90,5 @@ if __name__ == "__main__":
 
 ### **7. Deploying On FastAPI and Testing with POSTMAN API**
 
-- **`Run app.py with the necessary and paste the command 'uvicorn app:app --reload' Once the command is started then you go to post man and apply this the address generated in the cmd prompt  `**
+- **`Run app.py with the necessary libraries and paste the command 'uvicorn app:app --reload' Once the command is started then you go to post man and apply the address generated in the cmd prompt and put post in the option and write something to summarize with the text   `**
 ![POSTMAN api](postman.png).
