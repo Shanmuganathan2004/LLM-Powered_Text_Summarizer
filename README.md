@@ -5,7 +5,8 @@ You can Follow me on LinkedIn click here -->-->--->[<img src="Linkein-Image.png"
 
 ### **Updates**
 1.0.0 - 08.02.2025-Initialize the commanad
-1.0.1 - Fix some bugs and deploy it with the fastapi and test using POSTMAN api
+
+1.0.1 - 09.02.2025-Fix some bugs and deploy it with the fastapi and test using POSTMAN api
 
 ### **1. Import Required Libraries**
 ```python
