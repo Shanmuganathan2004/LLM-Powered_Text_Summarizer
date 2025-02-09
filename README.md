@@ -81,3 +81,10 @@ if __name__ == "__main__":
 ![Miku-Theme](Hatsune_Miku_Light.png).
 - **`Comparision`**
 ![Miku-Theme](Interface_comparision.png).  
+
+---
+
+### **7. Deploying On FastAPI and Testing with POSTMAN API**
+
+- **`Run app.py with the necessary and paste the command 'uvicorn app:app --reload' Once the command is started then you go to post man and apply this the address generated in the cmd prompt  `**
+![POSTMAN api](postman.png).
