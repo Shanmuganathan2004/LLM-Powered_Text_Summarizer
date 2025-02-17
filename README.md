@@ -93,3 +93,4 @@ if __name__ == "__main__":
 
 - **`Run app.py with the necessary libraries and paste the command 'uvicorn app:app --reload' Once the command is started then you go to post man and apply the address generated in the cmd prompt and put post in the option and write something to summarize with the text   `**
 ![POSTMAN api](postman.png).
+ Thank you
